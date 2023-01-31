@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import { ContactsTitle, List } from './ContactList.styled';
 import { ContactElement } from '../ContactElement/ContactElement';
 import { useSelector } from 'react-redux';
-import { filteredContactsSelector } from '.../Redux/selectors';
+import { filteredContactsSelector } from 'Redux/selectors';
 
 export function ContactList() {
   const [elId, setElId] = useState('');

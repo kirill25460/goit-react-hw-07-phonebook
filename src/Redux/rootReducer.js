@@ -1,5 +1,5 @@
 import { combineReducers } from 'redux';
-import contactsReducer from './contacts/contactsSlice';
+import contactsReducer from './Contacts/contactsSlice';
 import filterReducer from './filterslice';
 
 export const rootReducer = combineReducers({

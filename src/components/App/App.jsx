@@ -3,7 +3,7 @@ import { ContactList } from '../ContactList/ContactList';
 import { Filter } from '../Filter/Filter';
 import { useEffect } from 'react';
 import { useDispatch } from 'react-redux';
-import { getAllContactsThunk } from '.../Redux/Contacts/contactsOperations';
+import { getAllContactsThunk } from 'Redux/Contacts/contactsOperations';
 import { PhonebookTitle, Wrapper } from './App.styled';
 
 export const App = () => {

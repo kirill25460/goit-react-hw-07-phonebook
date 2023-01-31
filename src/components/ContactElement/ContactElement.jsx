@@ -5,8 +5,8 @@ import { useDispatch, useSelector } from 'react-redux';
 
 import { Dna } from 'react-loader-spinner';
 
-import { deleteContactsThunk } from 'redux/contacts/contactsOperations';
-import { isLoadingSelector } from 'redux/selectors';
+import { deleteContactsThunk } from 'Redux/Contacts/contactsOperations';
+import { isLoadingSelector } from 'Redux/selectors';
 
 export function ContactElement({ name, number, id, elId, idChanger }) {
 

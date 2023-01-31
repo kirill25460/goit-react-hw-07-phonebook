@@ -1,9 +1,9 @@
 import React from 'react';
 import { useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { addContactsThunk } from '.../Redux/Contacts/contactsOperations';
+import { addContactsThunk } from 'Redux/Contacts/contactsOperations';
 
-import { contactsSelector } from '.../Redux/selectors';
+import { contactsSelector } from 'Redux/selectors';
 import { Button, Form, Input, Label } from './ContactForm.styled';
 
 export const ContactForm = () => {

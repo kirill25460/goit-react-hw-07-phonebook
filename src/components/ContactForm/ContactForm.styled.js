@@ -15,18 +15,17 @@ export const Input = styled.input`
 `;
 
 export const Button = styled.button`
-  background-color: ${props => (props.main ? 'green' : 'transparent')};
-  display: inline-flex;
-  width: 150px;
-  height: 35px;
-  justify-content: center;
-  align-items: center;
-  margin: 0 auto;
-  border-radius: ${props => (props.round ? props.round : '2px')};
-  transition: all 250ms linear;
-  &:hover {
-    background-color: green;
-    border-color: transparent;
+padding: 5px 10px;
+font-size: 15px;
+font-weight: 600;
+border-radius: 5px;
+border: none;
+background-color: #ddd;
+color: #333;
+cursor: pointer;
+&:hover {
+  background-color: #4b98f5;
+  color: #eee;
   }
 `;
 
